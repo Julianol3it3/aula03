@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+width: 100vw;
+height: 100vh;
+}
+
+body {
+background: #121212;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+main {
+padding: 3rem;
+border-radius: 1rem;
+background: #f8f8f8;
+}
+
+.wrapper-boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+  background: crimson;
+}
+
+.box-item {
+ width: 5rem;
+ height: 5rem;
+ background: #740017;
+}
+
+.skew-x-negativo {
+  transform: skewx(-25deg);
+}
+
+.skew-y-negativo {
+  transform: skewY(-25deg);
+}
+.skew-xy-negativo {
+  transform: skew(-25deg, -25deg);
+}
+
+.skew-x-positivo {
+  transform: skewx(25deg);
+}
+
+.skew-y-positivo {
+  transform: skewY(25deg);
+}
+.skew-xy-positivo {
+  transform: skew(25deg, 25deg);
+}
+
+.skew-xy-1 {
+  transform: skew(25deg, -25deg) ;
+}
+
+.skew-xy-2 {
+  transform: skew(-25deg, 25deg) ;
+}
+
+.skew-xy-3 {
+  transform: skew(-30deg, -30deg);
+}
+

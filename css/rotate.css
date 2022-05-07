@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+width: 100vw;
+height: 100vh;
+}
+
+body {
+background: #121212;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+main {
+padding: 3rem;
+border-radius: 1rem;
+background: #f8f8f8;
+}
+
+.wrapper-boxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+
+.box {
+  width: 5rem;
+  height: 5rem;
+  background: crimson;
+}
+
+.box-item {
+ width: 5rem;
+ height: 5rem;
+ background: #740017;
+ border-radius: 0.5rem 1rem 1.5rem;
+}
+
+.rotate-negativo {
+  transform: rotate(-45deg);
+}
+
+.rotate-positivo {
+  transform: rotate(66deg);
+}
